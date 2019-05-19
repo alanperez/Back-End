@@ -34,7 +34,7 @@
 ### https://lambda-wedding-planner.herokuapp.com/api/posts/:id
 * a PUT request to this route (with "id" replaced by the meal ID) will return the number of meals updated for the logged in user. 
 * **Required**: `couple_name`
-* **Optional but recommended**: `wedding_theme, item_photo, vendor_list, wedding_date`
+* **Optional but recommended**: `wedding_theme, item_photo, wedding_date`
 
 ### https://lambda-wedding-planner.herokuapp.com/api/posts/:id
 * a DELETE request to this route will return the number of wedding posts deleted for the logged in user. 
